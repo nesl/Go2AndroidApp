@@ -8,7 +8,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
 object NetworkModule {
 
-    private const val BASE_URL = "http://172.17.40.64:8080/"
+    private const val BASE_URL = "http://URL:8080/"
 
     private val moshi = Moshi.Builder()
         .addLast(KotlinJsonAdapterFactory())
